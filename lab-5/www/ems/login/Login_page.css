@@ -1,0 +1,54 @@
+.login_el{
+    background-color: #29335C ;
+    width: 25em;
+    height: 30em;
+    border-radius: 20px;
+}
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2015/05/11/14/44/pencils-762555_960_720.jpg");
+    background-size: cover;
+
+}
+h1,h2,h3,h4,h5{
+font-family: 'Merriweather', serif;
+color: #F0CEA0;
+font-size: 4em;
+}
+p,label{
+font-family: 'Oswald', sans-serif;
+color: #F3A712   !important;
+}
+label{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    color: #F3A712  !important;;
+    font-weight: bold;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-top: 70px;
+}
+
+button{
+    margin-top:10px;
+    background-color: #F3A712;
+    color: black;
+    border-color: #F0CEA0;
+    display: block;
+}
+
+.g-recaptcha{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:scale(0.64);
+    transform-origin:0 2;
+}
+.info{
+   text-align: center;
+}
